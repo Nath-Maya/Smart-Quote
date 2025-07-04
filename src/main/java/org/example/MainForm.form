@@ -6,26 +6,35 @@
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <preferredSize width="650" height="300"/>
+      <preferredSize width="800" height="350"/>
+      <requestFocusEnabled value="false"/>
     </properties>
     <border type="none"/>
     <children>
       <scrollpane id="8b390">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="215" height="17"/>
+          </grid>
         </constraints>
         <properties/>
         <border type="none"/>
         <children>
           <component id="3381a" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
             <constraints/>
-            <properties/>
+            <properties>
+              <margin top="3" left="3" bottom="3" right="3"/>
+              <preferredSize width="50" height="50"/>
+              <rows value="0"/>
+            </properties>
           </component>
         </children>
       </scrollpane>
       <scrollpane id="9b523">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="17"/>
+          </grid>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -34,22 +43,27 @@
             <constraints/>
             <properties>
               <editable value="false"/>
+              <margin top="3" left="3" bottom="3" right="3"/>
             </properties>
           </component>
         </children>
       </scrollpane>
       <component id="752fe" class="javax.swing.JButton" binding="procesarButton" default-binding="true">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="9" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8393092"/>
           <horizontalTextPosition value="0"/>
           <text value="Procesar"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
       <component id="ad35a" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="215" height="17"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Solicitud Cliente"/>
@@ -65,10 +79,12 @@
       </component>
       <component id="459b2" class="javax.swing.JButton" binding="copiarButton" default-binding="true">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="9" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-2072214"/>
           <text value="Copiar"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
     </children>
